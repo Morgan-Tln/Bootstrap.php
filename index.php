@@ -17,4 +17,10 @@ function my_merge_image($first, $second){
   imagepng($new, "Fusion.png");
 }
 my_merge_image($argv[1], $argv[2]); //tableau grâce a list
+
+
+function my_generate_css($new) {
+  $new = fopen("Fusion.png", "x");
+}
+echo my_generate_css()
  ?>
